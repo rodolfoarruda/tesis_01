@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nome-projeto"
+version = "0.1.0"
+description = "Teste de configuraao do ambiente"
+authors = ["Rodolfo"]
+license = "Gnu"
+readme = "README.md"
+packages = [{include = "nome_projeto"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
